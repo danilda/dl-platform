@@ -1,10 +1,11 @@
-package com.dlplatform.sessionInterfaceImpl;
+package com.dlplatform.sessionActivity.sessionInterfaceImpl;
 
-import com.dlplatform.sessionInterface.User;
+import com.dlplatform.sessionActivity.sessionInterface.User;
+import org.springframework.stereotype.Component;
 
 import java.util.Date;
 
-
+@Component
 public class SessionUser implements User {
     private int user_id;
     private String login;
@@ -14,6 +15,9 @@ public class SessionUser implements User {
     private String name;
     private Date birthday;
     private Date registrationDate;
+
+    public SessionUser() {
+    }
 
     public int getUser_id() {
         return user_id;

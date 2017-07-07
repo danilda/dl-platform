@@ -1,4 +1,4 @@
-package com.dlplatform.sessionInterface;
+package com.dlplatform.sessionActivity.sessionInterface;
 
 import java.util.Date;
 

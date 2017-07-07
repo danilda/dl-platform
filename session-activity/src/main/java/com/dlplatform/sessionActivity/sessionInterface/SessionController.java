@@ -1,4 +1,4 @@
-package com.dlplatform.sessionInterface;
+package com.dlplatform.sessionActivity.sessionInterface;
 
 /**
  * Created by dach1016 on 06.07.2017.
